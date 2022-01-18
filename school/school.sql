@@ -36,12 +36,6 @@ CREATE TABLE sections (
 
 CREATE TABLE enrollments (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  student_first_name TEXT,
-  student_last_name TEXT,
-  student_email TEXT,
-  course_name TEXT,
-  course_description TEXT,
-  teacher_first_name TEXT,
-  teacher_last_name TEXT,
-  sections_time TEXT,
+  section_id INTEGER,
+  student_id INTEGER,
 );
